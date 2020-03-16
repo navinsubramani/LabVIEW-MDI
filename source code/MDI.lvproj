@@ -13,23 +13,21 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LV MDI.lvclass" Type="LVClass" URL="../API/MDI_Class/LV MDI.lvclass"/>
 		<Item Name="Document.lvclass" Type="LVClass" URL="../API/MDI_Class/Document.lvclass"/>
-		<Item Name="MDI.vi" Type="VI" URL="../API/MDI.vi"/>
 		<Item Name="Doc.vi" Type="VI" URL="../API/Doc.vi"/>
+		<Item Name="MDI.vi" Type="VI" URL="../API/MDI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 			</Item>
-			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get name.vi" Type="VI" URL="../API/MDI_Class/Community/Get name.vi"/>
-			<Item Name="Get hwnd.vi" Type="VI" URL="../API/MDI_Class/Community/Get hwnd.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
