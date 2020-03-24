@@ -16,13 +16,17 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Doc.vi" Type="VI" URL="/&lt;vilib&gt;/Soliton/MDI Soliton/source code/API/Doc.vi"/>
+		<Item Name="MDI.vi" Type="VI" URL="/&lt;vilib&gt;/Soliton/MDI Soliton/source code/API/MDI.vi"/>
 		<Item Name="LV MDI.lvclass" Type="LVClass" URL="../API/MDI_Class/LV MDI.lvclass"/>
 		<Item Name="Document.lvclass" Type="LVClass" URL="../API/MDI_Class/Document.lvclass"/>
-		<Item Name="Doc.vi" Type="VI" URL="../API/Doc.vi"/>
-		<Item Name="MDI.vi" Type="VI" URL="../API/MDI.vi"/>
+		<Item Name="LV Doc.lvclass" Type="LVClass" URL="../API/MDI_Class/LV Doc.lvclass"/>
+		<Item Name="Py Doc.lvclass" Type="LVClass" URL="../API/MDI_Class/Py Doc.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
