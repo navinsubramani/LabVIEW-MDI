@@ -16,12 +16,20 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Doc.vi" Type="VI" URL="/&lt;vilib&gt;/Soliton/MDI Soliton/source code/API/Doc.vi"/>
-		<Item Name="MDI.vi" Type="VI" URL="/&lt;vilib&gt;/Soliton/MDI Soliton/source code/API/MDI.vi"/>
-		<Item Name="LV MDI.lvclass" Type="LVClass" URL="../API/MDI_Class/LV MDI.lvclass"/>
-		<Item Name="Document.lvclass" Type="LVClass" URL="../API/MDI_Class/Document.lvclass"/>
-		<Item Name="LV Doc.lvclass" Type="LVClass" URL="../API/MDI_Class/LV Doc.lvclass"/>
-		<Item Name="Py Doc.lvclass" Type="LVClass" URL="../API/MDI_Class/Py Doc.lvclass"/>
+		<Item Name="MDI Library" Type="Folder">
+			<Item Name="LV MDI.lvclass" Type="LVClass" URL="../MDI Library/LV MDI.lvclass"/>
+		</Item>
+		<Item Name="Document" Type="Folder">
+			<Item Name="Child Classes" Type="Folder">
+				<Item Name="LV Doc" Type="Folder">
+					<Item Name="LV Doc.lvclass" Type="LVClass" URL="../Document/Child Classes/LV Doc/LV Doc.lvclass"/>
+				</Item>
+				<Item Name="Py Doc" Type="Folder">
+					<Item Name="Py Doc.lvclass" Type="LVClass" URL="../Document/Child Classes/Py Doc/Py Doc.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Document.lvclass" Type="LVClass" URL="../Document/Document.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
