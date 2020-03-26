@@ -1,1 +1,0 @@
-- Example VI, files and prototype programs are maintained here.
