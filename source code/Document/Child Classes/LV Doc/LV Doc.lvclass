@@ -69,6 +69,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
+		<Item Name="Scale Window.vi" Type="VI" URL="../Community/Scale Window.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$\!!!!#1!31(!!#!!!!!)!!!6733"J&lt;A!%!!!!&amp;%"Q!!A!!!!#!!!'6EEA&lt;X6U!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!$!!1!"2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!1!"!!%!!1!"!!%!"A!"!!%!!1!(!Q!"#!!!#!!!!!!!!!!!!!!!!!!!!!U!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Child Window Data" Type="Property Definition">
