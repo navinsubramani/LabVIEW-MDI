@@ -22,6 +22,14 @@
 		<Item Name="Document" Type="Folder">
 			<Item Name="Child Classes" Type="Folder">
 				<Item Name="LV Doc" Type="Folder">
+					<Item Name="Child Classes" Type="Folder">
+						<Item Name="LV Dev" Type="Folder">
+							<Item Name="LV DEV.lvclass" Type="LVClass" URL="../Document/Child Classes/LV Doc/Child Classes/LV DEV/LV DEV.lvclass"/>
+						</Item>
+						<Item Name="LV RT" Type="Folder">
+							<Item Name="LV RT.lvclass" Type="LVClass" URL="../Document/Child Classes/LV Doc/Child Classes/LV RT/LV RT.lvclass"/>
+						</Item>
+					</Item>
 					<Item Name="LV Doc.lvclass" Type="LVClass" URL="../Document/Child Classes/LV Doc/LV Doc.lvclass"/>
 				</Item>
 				<Item Name="Py Doc" Type="Folder">
@@ -59,9 +67,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
