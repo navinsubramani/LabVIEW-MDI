@@ -60,6 +60,9 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Document.lvclass" Type="LVClass" URL="../../../source code/Document/Document.lvclass"/>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="LV Doc.lvclass" Type="LVClass" URL="../../../source code/Document/Child Classes/LV Doc/LV Doc.lvclass"/>
 			<Item Name="LV MDI.lvclass" Type="LVClass" URL="../../../source code/MDI Library/LV MDI.lvclass"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
