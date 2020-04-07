@@ -77,6 +77,7 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
 			<Item Name="Document.lvclass" Type="LVClass" URL="../../../source code/Document/Document.lvclass"/>
+			<Item Name="Environment Selection.ctl" Type="VI" URL="../Typedef/Environment Selection.ctl"/>
 			<Item Name="LV DEV.lvclass" Type="LVClass" URL="../../../source code/Document/Child Classes/LV Doc/Child Classes/LV DEV/LV DEV.lvclass"/>
 			<Item Name="LV Doc.lvclass" Type="LVClass" URL="../../../source code/Document/Child Classes/LV Doc/LV Doc.lvclass"/>
 			<Item Name="LV MDI.lvclass" Type="LVClass" URL="../../../source code/MDI Library/LV MDI.lvclass"/>
@@ -194,6 +195,57 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
 				<Property Name="TgtF_productName" Type="Str">MDI EXE 0.2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8E02C31A-F28C-40BB-8562-CC5006275112}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MDI.exe</Property>
+			</Item>
+			<Item Name="MDI EXE 0.3" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{6A5BED9C-789F-49D7-936C-97FE00D36384}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{B45661C9-A508-4B08-AE45-16CDA1465FE6}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B421F802-1759-4928-8287-208FC8659A0D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MDI EXE 0.3</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/D/MDI Project/builds/MDI/MDI 0.3</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{371B7934-26E4-4CCB-A365-E5A7E8F1FA37}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">MDI.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/D/MDI Project/builds/MDI/MDI 0.3/MDI.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/D/MDI Project/builds/MDI/MDI 0.3/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DC2845A9-2269-445F-B73B-129097EF800A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main VI.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Subvi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Typedef</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MDI EXE 0.3</Property>
+				<Property Name="TgtF_internalName" Type="Str">MDI EXE 0.3</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
+				<Property Name="TgtF_productName" Type="Str">MDI EXE 0.3</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{12D150B3-117A-4DD5-9FC6-B8BFFFA85560}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">MDI.exe</Property>
 			</Item>
 		</Item>

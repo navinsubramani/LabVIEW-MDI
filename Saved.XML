@@ -1,9 +1,9 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>16.0</Version>
+<Version>16.0f7</Version>
 <Cluster>
 <Name></Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <Object>
 <Name>LV MDI out</Name>
 <NumLevels>1</NumLevels>
@@ -14,7 +14,7 @@
 <NumElts>5</NumElts>
 <I32>
 <Name>Child Count</Name>
-<Val>2</Val>
+<Val>0</Val>
 </I32>
 <Refnum>
 <Name>ContainerReference</Name>
@@ -22,64 +22,35 @@
 <DotNetType>
 <Name>System.IntPtr, mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
 </DotNetType>
-<Val>0xBD000003</Val>
+<Val>0x2B200006</Val>
 </Refnum>
 <Array>
 <Name>Doc Class Object[]</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <Object>
 <Name>Document.lvclass</Name>
 <NumLevels>2</NumLevels>
 <Class>LV Doc.lvclass</Class>
-<Version>1.0.0.9</Version>
+<Version>1.0.0.11</Version>
 <Version>1.0.0.7</Version>
 <Cluster>
 <Name>Document.lvclass</Name>
 <NumElts>4</NumElts>
 <String>
 <Name>Doc Name</Name>
-<Val>Switch.vi Front Panel</Val>
+<Val>Switch.vi</Val>
 </String>
 <U32>
 <Name>Child Hwnd</Name>
-<Val>198336</Val>
+<Val>1116300</Val>
 </U32>
 <String>
 <Name>UID</Name>
-<Val>e12bbf27-ce7e-4cdb-a958-dd0ef77b1e9c</Val>
+<Val>fd5ac343-3341-4969-9370-94e4c742b4d0</Val>
 </String>
 <Path>
 <Name>Document Path</Name>
 <Val>D:\MDI Project\example\Example1\Plugin\Switch.vi</Val>
-</Path>
-</Cluster>
-<Cluster>
-</Cluster>
-</Object>
-<Object>
-<Name>Document.lvclass</Name>
-<NumLevels>2</NumLevels>
-<Class>LV Doc.lvclass</Class>
-<Version>1.0.0.9</Version>
-<Version>1.0.0.7</Version>
-<Cluster>
-<Name>Document.lvclass</Name>
-<NumElts>4</NumElts>
-<String>
-<Name>Doc Name</Name>
-<Val>Waveform.vi Front Panel</Val>
-</String>
-<U32>
-<Name>Child Hwnd</Name>
-<Val>394904</Val>
-</U32>
-<String>
-<Name>UID</Name>
-<Val>732c55fe-b625-4317-a23f-26dc801108ec</Val>
-</String>
-<Path>
-<Name>Document Path</Name>
-<Val>D:\MDI Project\example\Example1\Plugin\Waveform.vi</Val>
 </Path>
 </Cluster>
 <Cluster>
@@ -90,26 +61,26 @@
 <Name>Active Document class</Name>
 <NumLevels>2</NumLevels>
 <Class>LV Doc.lvclass</Class>
-<Version>1.0.0.9</Version>
+<Version>1.0.0.11</Version>
 <Version>1.0.0.7</Version>
 <Cluster>
 <Name>Document.lvclass</Name>
 <NumElts>4</NumElts>
 <String>
 <Name>Doc Name</Name>
-<Val>Waveform.vi Front Panel</Val>
+<Val>Switch.vi</Val>
 </String>
 <U32>
 <Name>Child Hwnd</Name>
-<Val>394904</Val>
+<Val>1116300</Val>
 </U32>
 <String>
 <Name>UID</Name>
-<Val>732c55fe-b625-4317-a23f-26dc801108ec</Val>
+<Val>fd5ac343-3341-4969-9370-94e4c742b4d0</Val>
 </String>
 <Path>
 <Name>Document Path</Name>
-<Val>D:\MDI Project\example\Example1\Plugin\Waveform.vi</Val>
+<Val>D:\MDI Project\example\Example1\Plugin\Switch.vi</Val>
 </Path>
 </Cluster>
 <Cluster>
@@ -117,65 +88,47 @@
 </Object>
 <I32>
 <Name>Parent Hwnd</Name>
-<Val>132780</Val>
+<Val>3803118</Val>
 </I32>
 </Cluster>
 </Object>
 <Array>
 <Name>Displayed Doc[]</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <String>
 <Name>Doc Name</Name>
-<Val>Switch.vi Front Panel</Val>
-</String>
-<String>
-<Name>Doc Name</Name>
-<Val>Waveform.vi Front Panel</Val>
+<Val>Switch.vi</Val>
 </String>
 </Array>
 <Array>
 <Name>Position[]</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <Cluster>
 <Name>lpRect</Name>
 <NumElts>4</NumElts>
 <I32>
 <Name>X</Name>
-<Val>26</Val>
+<Val>320</Val>
 </I32>
 <I32>
 <Name>Y</Name>
-<Val>26</Val>
+<Val>20</Val>
 </I32>
 <I32>
 <Name>Width</Name>
-<Val>490</Val>
+<Val>300</Val>
 </I32>
 <I32>
 <Name>Height</Name>
-<Val>326</Val>
-</I32>
-</Cluster>
-<Cluster>
-<Name>lpRect</Name>
-<NumElts>4</NumElts>
-<I32>
-<Name>X</Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Y</Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Width</Name>
-<Val>490</Val>
-</I32>
-<I32>
-<Name>Height</Name>
-<Val>326</Val>
+<Val>300</Val>
 </I32>
 </Cluster>
 </Array>
+<EW>
+<Name>Environment Selection</Name>
+<Choice>RTE</Choice>
+<Choice>Dev Environment</Choice>
+<Val>0</Val>
+</EW>
 </Cluster>
 </LVData>

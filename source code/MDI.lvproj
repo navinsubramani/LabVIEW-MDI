@@ -69,6 +69,7 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Environment Selection.ctl" Type="VI" URL="../../example/Example1/Typedef/Environment Selection.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My MDI" Type="EXE">
