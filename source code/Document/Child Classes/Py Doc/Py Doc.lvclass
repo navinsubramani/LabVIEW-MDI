@@ -34,23 +34,25 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 		</Item>
-		<Item Name="Load to memory.vi" Type="VI" URL="../Community/Load to memory.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'%!!!!#Q!E1(!!(A!!%!Z1?3"%&lt;W-O&lt;(:D&lt;'&amp;T=Q!!#6"Z)%2P9S"J&lt;A!%!!!!*E"Q!"Y!!"!/5(EA2'^D,GRW9WRB=X-!!!J1?3"%&lt;W-A&lt;X6U!!!/1$,`````"&amp;"B&gt;'A!!&amp;=!]1!!!!!!!!!"'56O&gt;GFS&lt;WZN:7ZU)&amp;.F&lt;'6D&gt;'FP&lt;CZD&gt;'Q!.5!7!!)$5F2&amp;$U2F&gt;C"&amp;&lt;H:J=G^O&lt;76O&gt;!!627ZW;8*P&lt;GVF&lt;H1A5W6M:7.U;7^O!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!5!"A!(%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!"1!'!!=*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!$!!%!"!!"!!%!!1!)!!%!!1!"!!E$!!%)!!#3!!!!!!!!!!!!!!!!!!!!D1!!!!A!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#A!!!!!</Property>
+		<Item Name="py File Name.vi" Type="VI" URL="../Community/py File Name.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%*!!!!#A!/1$,`````"&amp;"B&gt;'A!!!1!!!!31$$`````#%2P9S"/97VF!!!51$$`````#F.I:7RM)%ZB&lt;75!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!1!"1!'%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!"!!-!!1!"!!%!!1!(!!%!!1!"!!A$!!%)!!!)!!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 		</Item>
 	</Item>
-	<Item Name="py File Name.vi" Type="VI" URL="../Community/py File Name.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$T!!!!#1!/1$,`````"&amp;"B&gt;'A!!!1!!!!11$$`````"F.U=GFO:Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!Q!%!!54:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71&amp;!!!Q!$!!1!"1FF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!%!!1!#!!%!!1!"!!%!!1!"!!9!!1!"!!%!"Q-!!1A!!!A!!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!)!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+	<Item Name="Public" Type="Folder">
+		<Item Name="Instantiate Py Doc.vi" Type="VI" URL="../Public/Instantiate Py Doc.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%6!!!!#1!71$,`````$&amp;"Z)%:J&lt;'5A5'&amp;U;!!!"!!!!#J!=!!?!!!3%%2P9X6N:7ZU,GRW9WRB=X-!!!R%&lt;W.V&lt;76O&gt;#"P&gt;81!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!-!"!!&amp;%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!"!!%!!1!"!!%!!1!'!!%!!1!"!!=$!!%)!!!)!!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+		</Item>
 	</Item>
 </LVClass>

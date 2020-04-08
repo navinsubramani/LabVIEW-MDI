@@ -15,6 +15,7 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Subvi" Type="Folder">
+			<Item Name="Doc Object[].vi" Type="VI" URL="../Subvi/Doc Object[].vi"/>
 			<Item Name="Queue Driver.vi" Type="VI" URL="../Subvi/Queue Driver.vi"/>
 			<Item Name="Selected Doc Name[].vi" Type="VI" URL="../Subvi/Selected Doc Name[].vi"/>
 		</Item>
