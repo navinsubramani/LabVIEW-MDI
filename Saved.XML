@@ -22,7 +22,7 @@
 <DotNetType>
 <Name>System.IntPtr, mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
 </DotNetType>
-<Val>0xDEB00005</Val>
+<Val>0x84F00008</Val>
 </Refnum>
 <Array>
 <Name>Doc Class Object[]</Name>
@@ -31,8 +31,8 @@
 <Name>Document.lvclass</Name>
 <NumLevels>3</NumLevels>
 <Class>LV DEV.lvclass</Class>
-<Version>1.0.0.0</Version>
-<Version>1.0.0.11</Version>
+<Version>1.0.0.1</Version>
+<Version>1.0.0.12</Version>
 <Version>1.0.0.7</Version>
 <Cluster>
 <Name>Document.lvclass</Name>
@@ -43,11 +43,11 @@
 </String>
 <U32>
 <Name>Child Hwnd</Name>
-<Val>1181970</Val>
+<Val>5048972</Val>
 </U32>
 <String>
 <Name>UID</Name>
-<Val>7c228af4-a955-4f78-a430-731c3129eeac</Val>
+<Val>3291397a-bfbe-416c-b68b-a4634d6a4a72</Val>
 </String>
 <Path>
 <Name>Document Path</Name>
@@ -55,8 +55,24 @@
 </Path>
 </Cluster>
 <Cluster>
+<Name>LV Doc.lvclass</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>Reference</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x65100013</Val>
+</Refnum>
 </Cluster>
 <Cluster>
+<Name>LV DEV.lvclass</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>application reference</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Application</RefType>
+<Val>0x30D00020</Val>
+</Refnum>
 </Cluster>
 </Object>
 </Array>
@@ -64,8 +80,8 @@
 <Name>Active Document class</Name>
 <NumLevels>3</NumLevels>
 <Class>LV DEV.lvclass</Class>
-<Version>1.0.0.0</Version>
-<Version>1.0.0.11</Version>
+<Version>1.0.0.1</Version>
+<Version>1.0.0.12</Version>
 <Version>1.0.0.7</Version>
 <Cluster>
 <Name>Document.lvclass</Name>
@@ -76,11 +92,11 @@
 </String>
 <U32>
 <Name>Child Hwnd</Name>
-<Val>1181970</Val>
+<Val>5048972</Val>
 </U32>
 <String>
 <Name>UID</Name>
-<Val>7c228af4-a955-4f78-a430-731c3129eeac</Val>
+<Val>3291397a-bfbe-416c-b68b-a4634d6a4a72</Val>
 </String>
 <Path>
 <Name>Document Path</Name>
@@ -88,13 +104,29 @@
 </Path>
 </Cluster>
 <Cluster>
+<Name>LV Doc.lvclass</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>Reference</Name>
+<RefKind>LV Object</RefKind>
+<RefType>VI</RefType>
+<Val>0x65100013</Val>
+</Refnum>
 </Cluster>
 <Cluster>
+<Name>LV DEV.lvclass</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>application reference</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Application</RefType>
+<Val>0x30D00020</Val>
+</Refnum>
 </Cluster>
 </Object>
 <I32>
 <Name>Parent Hwnd</Name>
-<Val>1116086</Val>
+<Val>13370984</Val>
 </I32>
 </Cluster>
 </Object>
@@ -114,19 +146,19 @@
 <NumElts>4</NumElts>
 <I32>
 <Name>X</Name>
-<Val>320</Val>
+<Val>166</Val>
 </I32>
 <I32>
 <Name>Y</Name>
-<Val>20</Val>
+<Val>-17</Val>
 </I32>
 <I32>
 <Name>Width</Name>
-<Val>300</Val>
+<Val>212</Val>
 </I32>
 <I32>
 <Name>Height</Name>
-<Val>300</Val>
+<Val>244</Val>
 </I32>
 </Cluster>
 </Array>
