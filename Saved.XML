@@ -14,7 +14,7 @@
 <NumElts>5</NumElts>
 <I32>
 <Name>Child Count</Name>
-<Val>2</Val>
+<Val>0</Val>
 </I32>
 <Refnum>
 <Name>ContainerReference</Name>
@@ -22,15 +22,16 @@
 <DotNetType>
 <Name>System.IntPtr, mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Name>
 </DotNetType>
-<Val>0xF7400003</Val>
+<Val>0xDEB00005</Val>
 </Refnum>
 <Array>
 <Name>Doc Class Object[]</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <Object>
 <Name>Document.lvclass</Name>
-<NumLevels>2</NumLevels>
-<Class>LV Doc.lvclass</Class>
+<NumLevels>3</NumLevels>
+<Class>LV DEV.lvclass</Class>
+<Version>1.0.0.0</Version>
 <Version>1.0.0.11</Version>
 <Version>1.0.0.7</Version>
 <Cluster>
@@ -38,63 +39,22 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Doc Name</Name>
-<Val>Waveform.vi Front Panel</Val>
+<Val>Tank.vi Front Panel</Val>
 </String>
 <U32>
 <Name>Child Hwnd</Name>
-<Val>921744</Val>
+<Val>1181970</Val>
 </U32>
 <String>
 <Name>UID</Name>
-<Val>0e92637f-87de-46fc-9757-70d76a0632c1</Val>
+<Val>7c228af4-a955-4f78-a430-731c3129eeac</Val>
 </String>
 <Path>
 <Name>Document Path</Name>
-<Val>D:\MDI Project\example\Example1\Plugin\Waveform.vi</Val>
+<Val>D:\MDI Project\example\Example1\Plugin\Tank.vi</Val>
 </Path>
 </Cluster>
 <Cluster>
-<Name>LV Doc.lvclass</Name>
-<NumElts>2</NumElts>
-<Refnum>
-<Name>Reference</Name>
-<RefKind>LV Object</RefKind>
-<RefType>VI</RefType>
-<Val>0x00000000</Val>
-</Refnum>
-<EW>
-<Name>Environment Selection</Name>
-<Choice>RTE</Choice>
-<Choice>Dev Environment</Choice>
-<Val>1</Val>
-</EW>
-</Cluster>
-</Object>
-<Object>
-<Name>Document.lvclass</Name>
-<NumLevels>2</NumLevels>
-<Class>Py Doc.lvclass</Class>
-<Version>1.0.0.3</Version>
-<Version>1.0.0.7</Version>
-<Cluster>
-<Name>Document.lvclass</Name>
-<NumElts>4</NumElts>
-<String>
-<Name>Doc Name</Name>
-<Val>hello.py - D:\MDI Project\example\Example1\Plugin\hello.py (3.8.2)</Val>
-</String>
-<U32>
-<Name>Child Hwnd</Name>
-<Val>1446174</Val>
-</U32>
-<String>
-<Name>UID</Name>
-<Val></Val>
-</String>
-<Path>
-<Name>Document Path</Name>
-<Val>D:\MDI Project\example\Example1\Plugin\hello.py</Val>
-</Path>
 </Cluster>
 <Cluster>
 </Cluster>
@@ -102,92 +62,71 @@
 </Array>
 <Object>
 <Name>Active Document class</Name>
-<NumLevels>2</NumLevels>
-<Class>Py Doc.lvclass</Class>
-<Version>1.0.0.3</Version>
+<NumLevels>3</NumLevels>
+<Class>LV DEV.lvclass</Class>
+<Version>1.0.0.0</Version>
+<Version>1.0.0.11</Version>
 <Version>1.0.0.7</Version>
 <Cluster>
 <Name>Document.lvclass</Name>
 <NumElts>4</NumElts>
 <String>
 <Name>Doc Name</Name>
-<Val>hello.py - D:\MDI Project\example\Example1\Plugin\hello.py (3.8.2)</Val>
+<Val>Tank.vi Front Panel</Val>
 </String>
 <U32>
 <Name>Child Hwnd</Name>
-<Val>1446174</Val>
+<Val>1181970</Val>
 </U32>
 <String>
 <Name>UID</Name>
-<Val></Val>
+<Val>7c228af4-a955-4f78-a430-731c3129eeac</Val>
 </String>
 <Path>
 <Name>Document Path</Name>
-<Val>D:\MDI Project\example\Example1\Plugin\hello.py</Val>
+<Val>D:\MDI Project\example\Example1\Plugin\Tank.vi</Val>
 </Path>
+</Cluster>
+<Cluster>
 </Cluster>
 <Cluster>
 </Cluster>
 </Object>
 <I32>
 <Name>Parent Hwnd</Name>
-<Val>2035636</Val>
+<Val>1116086</Val>
 </I32>
 </Cluster>
 </Object>
 <Array>
 <Name>Displayed Doc[]</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <String>
 <Name>Doc Name</Name>
-<Val>Waveform.vi Front Panel</Val>
-</String>
-<String>
-<Name>Doc Name</Name>
-<Val>hello.py - D:\MDI Project\example\Example1\Plugin\hello.py (3.8.2)</Val>
+<Val>Tank.vi Front Panel</Val>
 </String>
 </Array>
 <Array>
 <Name>Position[]</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <Cluster>
 <Name>lpRect</Name>
 <NumElts>4</NumElts>
 <I32>
 <Name>X</Name>
-<Val>26</Val>
+<Val>320</Val>
 </I32>
 <I32>
 <Name>Y</Name>
-<Val>26</Val>
+<Val>20</Val>
 </I32>
 <I32>
 <Name>Width</Name>
-<Val>464</Val>
+<Val>300</Val>
 </I32>
 <I32>
 <Name>Height</Name>
-<Val>324</Val>
-</I32>
-</Cluster>
-<Cluster>
-<Name>lpRect</Name>
-<NumElts>4</NumElts>
-<I32>
-<Name>X</Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Y</Name>
-<Val>0</Val>
-</I32>
-<I32>
-<Name>Width</Name>
-<Val>464</Val>
-</I32>
-<I32>
-<Name>Height</Name>
-<Val>324</Val>
+<Val>300</Val>
 </I32>
 </Cluster>
 </Array>
@@ -195,7 +134,7 @@
 <Name>Environment Selection</Name>
 <Choice>RTE</Choice>
 <Choice>Dev Environment</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 </LVData>
