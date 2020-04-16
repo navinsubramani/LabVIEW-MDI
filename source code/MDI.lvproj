@@ -33,6 +33,14 @@
 					<Item Name="LV Doc.lvclass" Type="LVClass" URL="../Document/Child Classes/LV Doc/LV Doc.lvclass"/>
 				</Item>
 				<Item Name="Py Doc" Type="Folder">
+					<Item Name="Child Classes" Type="Folder">
+						<Item Name="Py Editor" Type="Folder">
+							<Item Name="Py Editor.lvclass" Type="LVClass" URL="../Document/Child Classes/Py Doc/Child Classes/Py Editor/Py Editor.lvclass"/>
+						</Item>
+						<Item Name="Py Shell" Type="Folder">
+							<Item Name="Py Shell.lvclass" Type="LVClass" URL="../Document/Child Classes/Py Doc/Child Classes/Py Shell/Py Shell.lvclass"/>
+						</Item>
+					</Item>
 					<Item Name="Py Doc.lvclass" Type="LVClass" URL="../Document/Child Classes/Py Doc/Py Doc.lvclass"/>
 				</Item>
 			</Item>
@@ -60,10 +68,10 @@
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Convert EOLs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs__ogtk.vi"/>
+				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
 				<Item Name="Convert EOLs (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs (String)__ogtk.vi"/>
 				<Item Name="Convert EOLs (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs (String Array)__ogtk.vi"/>
-				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
+				<Item Name="Convert EOLs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs__ogtk.vi"/>
 				<Item Name="Multi-line String to Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Multi-line String to Array__ogtk.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">

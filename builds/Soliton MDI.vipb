@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-04-13 01:09:51" Modified_Date="2020-04-13 01:51:24" Creator="sudharsan.varadharaj" Comments="" ID="4ba7053acb813243c7f073febec9a80d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-04-13 01:09:51" Modified_Date="2020-04-16 11:04:59" Creator="sudharsan.varadharaj" Comments="" ID="c06c3c2db78491890af9551384136c12">
   <Library_General_Settings>
     <Package_File_Name>Soliton_lib_Soliton_MDI</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source code</Library_Source_Folder>
     <Library_Output_Folder>MDI\VIPs</Library_Output_Folder>
@@ -224,7 +224,7 @@
         <Path>..\source code\Doc</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D26B409A5D29286E6F0E7F5E1A5E486</GUID>
+      <GUID>1C47649E7025891D44C48F92A9404E00</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -259,7 +259,7 @@
         <Path>..\source code\MDI Library\APIs\MDI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A00E1C6A1AFB484D85B616613A05A4A</GUID>
+      <GUID>A77746EF55192511E8123E04C56B5AFB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -322,7 +322,7 @@
         <Path>..\source code\Document\Child Classes\Py Doc\Public\Instantiate Py Doc.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B6FA156DECB453DD03A28D65942A78D</GUID>
+      <GUID>95805174D94D63AF4F24DFA090E734C5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
