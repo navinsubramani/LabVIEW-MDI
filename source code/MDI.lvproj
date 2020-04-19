@@ -16,39 +16,14 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MDI Library" Type="Folder">
-			<Item Name="LV MDI.lvclass" Type="LVClass" URL="../MDI Library/LV MDI.lvclass"/>
+		<Item Name="source code" Type="Folder" URL="..">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Document" Type="Folder">
-			<Item Name="Child Classes" Type="Folder">
-				<Item Name="LV Doc" Type="Folder">
-					<Item Name="Child Classes" Type="Folder">
-						<Item Name="LV Dev" Type="Folder">
-							<Item Name="LV DEV.lvclass" Type="LVClass" URL="../Document/Child Classes/LV Doc/Child Classes/LV DEV/LV DEV.lvclass"/>
-						</Item>
-						<Item Name="LV RT" Type="Folder">
-							<Item Name="LV RT.lvclass" Type="LVClass" URL="../Document/Child Classes/LV Doc/Child Classes/LV RT/LV RT.lvclass"/>
-						</Item>
-					</Item>
-					<Item Name="LV Doc.lvclass" Type="LVClass" URL="../Document/Child Classes/LV Doc/LV Doc.lvclass"/>
-				</Item>
-				<Item Name="Py Doc" Type="Folder">
-					<Item Name="Child Classes" Type="Folder">
-						<Item Name="Py Editor" Type="Folder">
-							<Item Name="Py Editor.lvclass" Type="LVClass" URL="../Document/Child Classes/Py Doc/Child Classes/Py Editor/Py Editor.lvclass"/>
-						</Item>
-						<Item Name="Py Shell" Type="Folder">
-							<Item Name="Py Shell.lvclass" Type="LVClass" URL="../Document/Child Classes/Py Doc/Child Classes/Py Shell/Py Shell.lvclass"/>
-						</Item>
-					</Item>
-					<Item Name="Py Doc.lvclass" Type="LVClass" URL="../Document/Child Classes/Py Doc/Py Doc.lvclass"/>
-				</Item>
-			</Item>
-			<Item Name="Document.lvclass" Type="LVClass" URL="../Document/Document.lvclass"/>
+		<Item Name="example" Type="Folder">
+			<Item Name="Example2.vi" Type="VI" URL="../../example/Example2/Example2.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
@@ -66,13 +41,14 @@
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
+				<Item Name="Multi-line String to Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Multi-line String to Array__ogtk.vi"/>
+				<Item Name="Convert EOLs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs__ogtk.vi"/>
 				<Item Name="Convert EOLs (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs (String)__ogtk.vi"/>
 				<Item Name="Convert EOLs (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs (String Array)__ogtk.vi"/>
-				<Item Name="Convert EOLs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs__ogtk.vi"/>
-				<Item Name="Multi-line String to Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Multi-line String to Array__ogtk.vi"/>
+				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -119,13 +95,13 @@
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/MDI Library</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/source code/MDI Library</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Document</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/source code/Document</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
