@@ -60,6 +60,7 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Py Doc.ctl" Type="VI" URL="../Document/Py Doc/Py Doc.lvclass/Py Doc.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My MDI" Type="EXE">
