@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-04-13 01:09:51" Modified_Date="2020-05-07 12:54:13" Creator="sudharsan.varadharaj" Comments="" ID="3c19f080503a3fe542bb3cd8de09a133">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-04-13 01:09:51" Modified_Date="2020-05-08 15:05:48" Creator="sudharsan.varadharaj" Comments="" ID="76ae451415ac9967902ea3ed2fa5fc09">
   <Library_General_Settings>
     <Package_File_Name>Soliton_lib_Soliton_MDI</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source code</Library_Source_Folder>
     <Library_Output_Folder>MDI\VIPs</Library_Output_Folder>
@@ -238,7 +238,7 @@
         <Path>..\source code\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>085820EFFE349CD30DEB77BCD3205E3E</GUID>
+      <GUID>F76342BD6E9A3AFDC63B8C5ADFF7C65A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -273,7 +273,7 @@
         <Path>..\source code\MDI Library\MDI apis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DAF3BE1FBACBD5E81AB007DEA2180EDB</GUID>
+      <GUID>E802EBABD57C932DFCC758E0C6FAA968</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -350,7 +350,7 @@
         <Path>..\source code\Document\Document base\public\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50CD409C566A3D55D59B5C7144AD3D30</GUID>
+      <GUID>62634AE5A6C2FBDD821011E26071183C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -413,7 +413,7 @@
         <Path>..\source code\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83D23D6E0DE32C24EBD9C72EA5640201</GUID>
+      <GUID>E3E3CB974152E30191845BC72F48BE59</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -462,7 +462,7 @@
         <Path>..\source code\Container\dotNET Container\public\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E991F16AD1F29BABFFA20131BB0B5A3</GUID>
+      <GUID>6256BCDFC15523A6F935E18BC582908B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
